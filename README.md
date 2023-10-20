@@ -2,6 +2,15 @@
 
 Generate and download invoices
 
+## Features
+
+- Dark and light mode
+- Multilingual
+- Print to PDF
+- Edit invoice details
+
+![Invoice Generator screenshot](https://invoicegenerator.l-chnider.com/example.png)
+
 ## Install the dependencies
 
 ```bash
