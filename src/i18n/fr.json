@@ -1,0 +1,15 @@
+{
+  "invoice": "facture",
+  "invoice_id": "numéro de la facture",
+  "subtotal": "sous total",
+  "company": "entreprise",
+  "iban": "iban",
+  "swift": "swift",
+  "total": "total",
+  "description": "description",
+  "quantity": "quantité",
+  "unit_price": "prix unitaire",
+  "address": "adresse",
+  "amount": "montant",
+  "currency": "devise"
+}

@@ -1,0 +1,15 @@
+{
+  "invoice": "invoice",
+  "invoice_id": "invoice number",
+  "address": "address",
+  "subtotal": "sub total",
+  "company": "company",
+  "iban": "iban",
+  "swift": "swift",
+  "total": "total",
+  "description": "description",
+  "quantity": "quantity",
+  "unit_price": "unit price",
+  "amount": "amount",
+  "currency": "currency"
+}

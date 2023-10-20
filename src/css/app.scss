@@ -1,0 +1,43 @@
+@media print {
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .no_print {
+    display: none;
+  }
+  .editable {
+    background-color: unset !important;
+    min-width: unset !important;
+    min-height: unset !important;
+  }
+}
+
+.invoice {
+  &-container {
+    padding: 5px 40px;
+  }
+  &-header,
+  &-footer {
+    font-size: 9px;
+  }
+  .receiver,
+  .bankDetails {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 6px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    th,
+    td {
+      padding: 8px 12px;
+      border: 1px solid #e0e0e0;
+    }
+    tfoot {
+      font-weight: bold;
+    }
+  }
+}

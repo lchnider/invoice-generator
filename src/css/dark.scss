@@ -1,0 +1,10 @@
+body.body--dark {
+  .invoice {
+    background-color: $dark-page;
+  }
+  .editable {
+    background-color: hsla(0, 0%, 100%, 0.04);
+    min-width: 1px;
+    min-height: 20px;
+  }
+}
