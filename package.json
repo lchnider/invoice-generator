@@ -1,8 +1,8 @@
 {
-  "name": "invoice-pdf",
+  "name": "invoice-generator",
   "version": "0.0.1",
-  "description": "Generate and download invoice",
-  "productName": "Invoice PDF",
+  "description": "Generate and download invoices",
+  "productName": "Invoice Generator",
   "author": "lchnider <lahcen.chnider@gmail.com>",
   "private": true,
   "scripts": {
