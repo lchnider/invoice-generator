@@ -17,7 +17,35 @@
         <td>
           <div v-html="item.description" class="editable" />
           <q-popup-edit v-model="item.description" auto-save v-slot="scope">
-            <q-editor v-model="scope.value" min-height="5rem" flat />
+            <q-editor
+              v-model="scope.value"
+              min-height="5rem"
+              flat
+              :toolbar="[
+                [
+                  {
+                    label: $q.lang.editor.align,
+                    icon: $q.iconSet.editor.align,
+                    fixedLabel: true,
+                    list: 'only-icons',
+                    options: ['left', 'center', 'right', 'justify'],
+                  },
+                ],
+                [
+                  'bold',
+                  'italic',
+                  'strike',
+                  'underline',
+                  'subscript',
+                  'superscript',
+                ],
+                ['token', 'hr', 'link', 'custom_btn'],
+                ['print', 'fullscreen'],
+                ['quote', 'unordered', 'ordered', 'outdent', 'indent'],
+                ['undo', 'redo'],
+                ['viewsource'],
+              ]"
+            />
           </q-popup-edit>
         </td>
         <td align="right">

@@ -2,7 +2,7 @@
   "invoice": "facture",
   "invoice_id": "numéro de la facture",
   "subtotal": "sous total",
-  "company": "entreprise",
+  "company": "company",
   "iban": "iban",
   "swift": "swift",
   "total": "total",

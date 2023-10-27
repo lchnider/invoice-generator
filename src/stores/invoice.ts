@@ -52,7 +52,11 @@ export const useInvoiceStore = defineStore('invoice', {
   persist: true,
   getters: {
     invoice_date({ date }) {
-      return date.replaceAll('/', '');
+      const parts = date.split('/');
+      if (parts.length === 3) {
+        const [day, month, year] = parts;
+        return `${year}${month}${day}`;
+      }
     },
   },
   actions: {
